@@ -7,5 +7,6 @@ return [(element), ...array] // ["foo", 1]
 }
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
-  console.log(array.unshift(element))
+  x = (array.unshift(element))
+  return x
 }
