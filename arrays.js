@@ -5,4 +5,4 @@ var array = [1]
   [element, ...array]
   array
 }
-addElementToBeginningOfArray(0, "foo")
+addElementToBeginningOfArray(1, "foo")
