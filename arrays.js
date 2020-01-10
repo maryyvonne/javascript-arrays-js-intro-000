@@ -7,5 +7,3 @@ function addElementToBeginningOfArray(array, element) {
   [(element), ...array] // ["foo", 1]
   array // [1]
 }
-addElementToBeginningOfArray([1], "foo")
-addElementToBeginningOfArray(array, "foo")
